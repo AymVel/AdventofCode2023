@@ -5,7 +5,7 @@ blue = 14
 red = 12
 total = 0
 colors = ["green" ,"blue", "red"]
-for s in [*open("day2")]:
+for s in [*open("day2/day2")]:
     temp_green = 0
     temp_red = 0
     temp_blue = 0
