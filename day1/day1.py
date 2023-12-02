@@ -1,5 +1,4 @@
-###1###
-'''
+
 def search(temp,digit):
     b = None
     for l in digit:
@@ -12,7 +11,7 @@ def search(temp,digit):
 res = []
 digit = ["one","two","three","four","five","six","seven","eight","nine","ten"]
 
-for s in [*open("day1")]:
+for s in [*open("day1/day1")]:
     temp = ""
     a = None
     b = None
@@ -49,4 +48,4 @@ for s in [*open("day1")]:
 
 
 print(sum(res))
-'''
+
